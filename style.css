@@ -20,11 +20,11 @@
 body {
 	font-family: arial;
     font-size: 25px;
-    background-image: radial-gradient( rgba(94, 203, 236, 0.5) , rgba(152, 182, 46, 0.5) );
+    background-image: radial-gradient( rgba(41, 40, 39, 0.7) , rgba(28, 22, 39, 0.9) );
     text-align: center;
 }
 h2 {
-  color: rgba(247, 231, 16, 0.6);
+  color: rgba(211, 23, 228, 0.6);
 }
 
 .done {
@@ -39,6 +39,9 @@ ul {
     text-align: left;
     line-height: 1.6;
     transform: translateX(-40%);
+}
+ul li {
+  color:white;
 }
 #enter {
 	background-color: #333333;
