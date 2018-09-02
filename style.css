@@ -101,7 +101,21 @@ ul li {
   padding:.4rem;
   margin: .2rem 2rem;
 }
+.reset {
+  background-color:yellow;
+  color:black;
+  font-weight: bold;
+  padding:.5rem 2rem;
+  border-radius: 4px;
+}
+.reset:hover {
+  background-color:red;
+  color:white;
+  transform: scale(1.1);
+}
 
+
+//MEDIA QUERIES
 @media (max-width: 576px) {
   .coolTitle {
     margin-top: 2rem;
