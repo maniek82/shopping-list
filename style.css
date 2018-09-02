@@ -116,7 +116,7 @@ ul li {
 
 
 //MEDIA QUERIES
-@media (max-width: 576px) {
+@media (max-width: 40rem) {
   .coolTitle {
     margin-top: 2rem;
     font-size: 3rem; 
