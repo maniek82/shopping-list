@@ -16,7 +16,7 @@ function createListElement() {
 	deleteButton.innerHTML ="delete";
 
 	var li = document.createElement("li");
-		li.setAttribute("class","todo");
+		li.setAttribute("class","todo borderGreen");
 		li.appendChild(document.createTextNode(input.value));
 		div.appendChild(li);
 		div.appendChild(deleteButton);
@@ -41,8 +41,19 @@ function addListAfterKeypress(event) {
 
 function toggleDone(event) {
 	event.target.classList.toggle("done");
+	console.log(event);
 }
-
+function addRemoveBorder(event) {
+	if(event.target.classList.contains("borderGreen")) {
+		event.target.classList.remove("borderGreen");
+		event.target.classList.add("borderRed");
+		
+	}else if(event.target.classList.contains("borderRed")) { 
+		 event.target.classList.remove("borderRed");
+		 event.target.classList.add("borderGreen");
+		}
+	
+}
 function deleteTodo(event) {
 	// if (event.target.localName === "button")
 	if (event.target.classList.contains('delete')) {
@@ -56,5 +67,6 @@ input.addEventListener("keypress", addListAfterKeypress);
 // li.addEventListener("click", toggleTodoDone);
 ul.addEventListener("click",toggleDone);
 ul.addEventListener("click", deleteTodo);
+ul.addEventListener("click", addRemoveBorder);
 
 
