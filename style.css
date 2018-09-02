@@ -1,9 +1,9 @@
 .coolTitle {
     animation: animateH1 2s ease-in-out;
-  margin-top: 8rem;
+  margin-top: 2rem;
   text-align: center;
   font-family: 'Oswald', Helvetica, sans-serif;
-  font-size: 5rem;
+  font-size: 3rem;
   transform: skewY(-10deg);
   letter-spacing: 4px;
   word-spacing: -8px;
