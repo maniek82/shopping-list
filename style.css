@@ -118,8 +118,8 @@ ul li {
 //MEDIA QUERIES
 @media (max-width: 40rem) {
   .coolTitle {
-    margin-top: 2rem;
-    font-size: 3rem; 
+    margin-top: 1rem;
+    font-size: 2rem; 
   }
   .item li {
   font-size:1rem;
