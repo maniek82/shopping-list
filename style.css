@@ -43,12 +43,13 @@ ul {
     list-style-type: none;
     margin:3rem auto;
     padding: 20px;
-    width: 60vw;
+    width: 80vw;
     text-align: left;
     line-height: 1.6rem;
 }
 ul li {
   color:rgb(162, 234, 7);
+	width:90%;
 }
 
 #enter {
@@ -76,6 +77,7 @@ ul li {
 }
 
 .item {
+   width:80%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -97,7 +99,7 @@ ul li {
 	transform: scale(1.1);
 }
 .todo {
-  width: 40rem;
+  width: 80%;
   padding:.4rem;
   margin: .2rem 2rem;
 }
@@ -124,6 +126,9 @@ ul li {
   .item li {
   font-size:1rem;
   }
+  .item {
+    width:100%;
+	}
   
   ul {
     margin: 0 .1rem .1rem 0;
